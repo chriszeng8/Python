@@ -2,7 +2,8 @@
 # Try ... Except
 # operations within the TRY block is to say that, as a programmer,
 # I know that things could go wrong in this block. If it goes wrong,
-# jump straight to except block.
+# jump straight to the EXCEPT block WITHOUT executing the following
+# code within the TRY block.
 
 print 'This program will multiply your input integer by 10.'
 test = raw_input("Enter an integer number:")  
